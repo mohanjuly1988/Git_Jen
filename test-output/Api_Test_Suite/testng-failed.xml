@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Api_Test_Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="SIT(failed)">
+    <classes>
+      <class name="practice.api.rest1.Testing1">
+        <methods>
+          <include name="SubPost1"/>
+          <include name="ReqP1"/>
+          <include name="PojoObj1"/>
+          <include name="FileT1"/>
+          <include name="ResT1"/>
+          <include name="StringT1"/>
+          <include name="ObjMap"/>
+          <include name="HashT1"/>
+        </methods>
+      </class> <!-- practice.api.rest1.Testing1 -->
+    </classes>
+  </test> <!-- SIT(failed) -->
+</suite> <!-- Failed suite [Api_Test_Suite] -->
